@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you reference this work, please cite it using this metadata."
+title: "AI Cognition Sphere"
+type: software
+authors:
+  - family-names: "Flynn"
+version: "1.0.0"
+date-released: 2026-08-09
+repository-code: "https://github.com/dalaofei1154/ai-cognition-sphere"
+url: "https://ai-cognition-sphere.ai-cognition-sphere.workers.dev"
+license: "MIT"
+abstract: >-
+  An interactive layered cognition sphere that maps visible AI capabilities
+  toward the system, reality, failure, theory, and boundary conditions required
+  for those capabilities to hold.

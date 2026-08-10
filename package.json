@@ -1,0 +1,65 @@
+{
+  "name": "ai-cognition-sphere",
+  "version": "1.0.0",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE.md",
+  "author": "Flynn",
+  "homepage": "https://ai-cognition-sphere.ai-cognition-sphere.workers.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dalaofei1154/ai-cognition-sphere.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dalaofei1154/ai-cognition-sphere/issues"
+  },
+  "keywords": [
+    "ai",
+    "cognition",
+    "knowledge-graph",
+    "threejs",
+    "visualization"
+  ],
+  "engines": {
+    "node": "^22.13.0 || >=24"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vinext build && node scripts/validate-artifact.mjs",
+    "start": "vinext start",
+    "test": "npm run build && node scripts/build-offline.mjs && node --test tests/*.test.mjs",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "typecheck": "tsc --noEmit",
+    "verify": "npm run lint && npm run typecheck && npm test",
+    "build:offline": "npm run build && node scripts/build-offline.mjs",
+    "package:offline": "npm run build:offline && node scripts/package-offline.mjs",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.51.1",
+    "@cloudflare/workers-types": "5.20260809.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "^0.179.0",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "esbuild": "0.28.1",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.3.0",
+    "react-server-dom-webpack": "19.2.8",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.45",
+    "vite": "8.2.1",
+    "wrangler": "4.120.0"
+  },
+  "type": "module",
+  "displayName": "AI 认知边界球体"
+}

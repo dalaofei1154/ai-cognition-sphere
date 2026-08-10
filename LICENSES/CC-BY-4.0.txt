@@ -1,0 +1,22 @@
+Creative Commons Attribution 4.0 International
+CC BY 4.0
+
+Copyright (c) 2026 Flynn
+
+The original conceptual, textual, and visual content identified in
+../LICENSE.md is licensed under the Creative Commons Attribution 4.0
+International license.
+
+You are free to share and adapt that material for any purpose, including
+commercially, provided that you give appropriate credit, provide a link to the
+license, and indicate whether changes were made. You may do so in any reasonable
+manner, but not in a way that suggests the licensor endorses you or your use.
+
+Canonical license page:
+https://creativecommons.org/licenses/by/4.0/
+
+Official legal code:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+This file is a project license notice and plain-language summary. The official
+Creative Commons legal code at the link above controls.

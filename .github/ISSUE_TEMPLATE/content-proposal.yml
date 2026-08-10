@@ -1,0 +1,36 @@
+name: Content proposal
+description: Propose a sourced change to a concept, relation, taxonomy, or authored path.
+title: "[Content]: "
+labels: ["content"]
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current problem
+      description: Identify the exact concept, relation, layer, or passage.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed change
+      description: Explain the smallest correction or editorial change.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Link primary, official, or otherwise authoritative sources.
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Content status
+      options:
+        - Established concept
+        - Authorial interpretation
+        - Boundary question
+    validations:
+      required: true
