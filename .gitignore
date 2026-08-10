@@ -1,0 +1,19 @@
+/node_modules
+/coverage
+/.next/
+/out/
+/.vinext/
+/dist/
+/.wrangler/
+/.sites-runtime/
+
+.env*
+
+.DS_Store
+*.pem
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+
+# Generated standalone releases belong in GitHub Releases.
+/AI-Cognition-Sphere-v*.html

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/dalaofei1154/ai-cognition-sphere/security/advisories/new
+    about: Report vulnerabilities privately instead of opening a public issue.
