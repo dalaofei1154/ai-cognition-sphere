@@ -6,9 +6,13 @@
 
 An AI cognition map you can enter. It begins with visible capabilities, then moves inward through models, systems, real-world action, failure conditions, foundational theory, and questions that remain unresolved at the boundary.
 
-[Enter the 3D sphere](https://ai-cognition-sphere.ai-cognition-sphere.workers.dev) · [Open the readable index](https://ai-cognition-sphere.ai-cognition-sphere.workers.dev/read)
+[Enter the 3D sphere](https://ai-cognition-sphere.ai-cognition-sphere.workers.dev) · [Open the readable index](https://ai-cognition-sphere.ai-cognition-sphere.workers.dev/read) · **[Download the offline edition](https://github.com/dalaofei1154/ai-cognition-sphere/releases/download/v1.0.0/AI-Cognition-Sphere-v1.0.0-Universal-Offline.zip)** · [View the v1.0.0 release](https://github.com/dalaofei1154/ai-cognition-sphere/releases/tag/v1.0.0)
 
 ![AI Cognition Sphere: from visible capabilities to cognitive boundaries](public/readme/en-overview.webp)
+
+### Use it offline
+
+Download and extract `AI-Cognition-Sphere-v1.0.0-Universal-Offline.zip`, then open `AI-Cognition-Sphere-v1.0.0.html` in a current desktop browser. The same package works on Windows and macOS without installation, Node.js, or a network connection. The repository's **Code → Download ZIP** option contains the source code; use the offline-edition link above for the ready-to-open version.
 
 ## Why this sphere exists
 

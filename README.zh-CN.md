@@ -8,9 +8,13 @@
 
 一个可以进入的 AI 认知地图：从可见能力出发，逐渐走向模型、系统、现实行动、失效条件、基础理论与尚未解决的边界问题。
 
-[进入三维球体](https://ai-cognition-sphere.ai-cognition-sphere.workers.dev/?lang=zh) · [打开文字索引](https://ai-cognition-sphere.ai-cognition-sphere.workers.dev/read?lang=zh)
+[进入三维球体](https://ai-cognition-sphere.ai-cognition-sphere.workers.dev/?lang=zh) · [打开文字索引](https://ai-cognition-sphere.ai-cognition-sphere.workers.dev/read?lang=zh) · **[下载通用离线版](https://github.com/dalaofei1154/ai-cognition-sphere/releases/download/v1.0.0/AI-Cognition-Sphere-v1.0.0-Universal-Offline.zip)** · [查看 v1.0.0 发布说明](https://github.com/dalaofei1154/ai-cognition-sphere/releases/tag/v1.0.0)
 
 ![AI Cognition Sphere 中文界面：从表象走向认知边界](public/readme/zh-overview.webp)
+
+### 离线使用
+
+下载并解压 `AI-Cognition-Sphere-v1.0.0-Universal-Offline.zip`，然后使用当前主流桌面浏览器打开 `AI-Cognition-Sphere-v1.0.0.html`。同一个压缩包适用于 Windows 和 macOS，无需安装软件、Node.js 或保持联网。仓库中 **Code → Download ZIP** 下载的是项目源代码；如需直接打开的版本，请使用上方的离线版下载链接。
 
 ## 为什么会有这颗球
 
